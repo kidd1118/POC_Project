@@ -1,0 +1,174 @@
+{"frames": {
+
+"jump_0":
+{
+	"frame": {"x":812,"y":557,"w":268,"h":526},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":268,"w":268,"h":526},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_1":
+{
+	"frame": {"x":1082,"y":528,"w":268,"h":524},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":270,"w":268,"h":524},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_2":
+{
+	"frame": {"x":1353,"y":1,"w":268,"h":513},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":281,"w":268,"h":513},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_3":
+{
+	"frame": {"x":1148,"y":1054,"w":268,"h":492},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":302,"w":268,"h":492},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_4":
+{
+	"frame": {"x":1623,"y":1,"w":269,"h":494},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":302,"w":269,"h":494},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_5":
+{
+	"frame": {"x":1352,"y":522,"w":268,"h":517},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":282,"w":268,"h":517},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_6":
+{
+	"frame": {"x":542,"y":1,"w":269,"h":554},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":244,"w":269,"h":554},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_7":
+{
+	"frame": {"x":272,"y":1,"w":268,"h":583},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":213,"w":268,"h":583},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_8":
+{
+	"frame": {"x":1,"y":1237,"w":269,"h":611},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":183,"w":269,"h":611},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_9":
+{
+	"frame": {"x":1,"y":1,"w":269,"h":620},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":172,"w":269,"h":620},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_10":
+{
+	"frame": {"x":1,"y":623,"w":268,"h":612},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":179,"w":268,"h":612},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_11":
+{
+	"frame": {"x":271,"y":623,"w":268,"h":602},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":189,"w":268,"h":602},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_12":
+{
+	"frame": {"x":541,"y":586,"w":269,"h":578},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":213,"w":269,"h":578},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_13":
+{
+	"frame": {"x":614,"y":1166,"w":269,"h":532},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":259,"w":269,"h":532},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_14":
+{
+	"frame": {"x":1418,"y":1041,"w":268,"h":501},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":290,"w":268,"h":501},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_15":
+{
+	"frame": {"x":1622,"y":516,"w":268,"h":507},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":293,"w":268,"h":507},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_16":
+{
+	"frame": {"x":1083,"y":1,"w":268,"h":519},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":280,"w":268,"h":519},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"jump_17":
+{
+	"frame": {"x":813,"y":1,"w":268,"h":525},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":270,"w":268,"h":525},
+	"sourceSize": {"w":1280,"h":800},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Ch_jump.png",
+	"format": "RGBA5555",
+	"size": {"w":1893,"h":1547},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:25fa3233b9f92b6106ee08bbca1174fd:8537cdf7659132bee40607baca44d62c:200ded8b2af0372dd690e344f67bf2d1$"
+}
+}

@@ -1,0 +1,101 @@
+{
+"skeleton": { "hash": "OJkHQP+uyvanC3AjKuzFYAtaU6s", "spine": "3.6.36", "width": 426, "height": 700 },
+"bones": [
+	{ "name": "root", "x": 214.09, "y": -349.98 }
+],
+"slots": [
+	{ "name": "renge_00100", "bone": "root", "color": "ffffff00", "attachment": "renge_00100" },
+	{ "name": "Hit the point2_00100", "bone": "root", "attachment": "Hit the point2_00164" }
+],
+"skins": {
+	"default": {
+		"Hit the point2_00100": {
+			"Hit the point2_00100": { "width": 426, "height": 700 },
+			"Hit the point2_00102": { "width": 426, "height": 700 },
+			"Hit the point2_00104": { "width": 426, "height": 700 },
+			"Hit the point2_00106": { "width": 426, "height": 700 },
+			"Hit the point2_00108": { "width": 426, "height": 700 },
+			"Hit the point2_00110": { "width": 426, "height": 700 },
+			"Hit the point2_00112": { "width": 426, "height": 700 },
+			"Hit the point2_00114": { "width": 426, "height": 700 },
+			"Hit the point2_00116": { "width": 426, "height": 700 },
+			"Hit the point2_00118": { "width": 426, "height": 700 },
+			"Hit the point2_00120": { "width": 426, "height": 700 },
+			"Hit the point2_00122": { "width": 426, "height": 700 },
+			"Hit the point2_00124": { "width": 426, "height": 700 },
+			"Hit the point2_00126": { "width": 426, "height": 700 },
+			"Hit the point2_00128": { "width": 426, "height": 700 },
+			"Hit the point2_00130": { "width": 426, "height": 700 },
+			"Hit the point2_00132": { "width": 426, "height": 700 },
+			"Hit the point2_00134": { "width": 426, "height": 700 },
+			"Hit the point2_00136": { "width": 426, "height": 700 },
+			"Hit the point2_00138": { "width": 426, "height": 700 },
+			"Hit the point2_00140": { "width": 426, "height": 700 },
+			"Hit the point2_00142": { "width": 426, "height": 700 },
+			"Hit the point2_00144": { "width": 426, "height": 700 },
+			"Hit the point2_00146": { "width": 426, "height": 700 },
+			"Hit the point2_00148": { "width": 426, "height": 700 },
+			"Hit the point2_00150": { "width": 426, "height": 700 },
+			"Hit the point2_00152": { "width": 426, "height": 700 },
+			"Hit the point2_00154": { "width": 426, "height": 700 },
+			"Hit the point2_00156": { "width": 426, "height": 700 },
+			"Hit the point2_00158": { "width": 426, "height": 700 },
+			"Hit the point2_00160": { "width": 426, "height": 700 },
+			"Hit the point2_00162": { "width": 426, "height": 700 },
+			"Hit the point2_00164": { "width": 426, "height": 700 }
+		},
+		"renge_00100": {
+			"renge_00100": { "x": 426.14, "y": -49.8, "width": 1280, "height": 800 }
+		}
+	}
+},
+"events": {
+	"the point": {}
+},
+"animations": {
+	"Hit the point": {
+		"slots": {
+			"Hit the point2_00100": {
+				"attachment": [
+					{ "time": 0, "name": "Hit the point2_00100" },
+					{ "time": 0.0667, "name": "Hit the point2_00102" },
+					{ "time": 0.1333, "name": "Hit the point2_00104" },
+					{ "time": 0.2, "name": "Hit the point2_00106" },
+					{ "time": 0.2667, "name": "Hit the point2_00108" },
+					{ "time": 0.3333, "name": "Hit the point2_00110" },
+					{ "time": 0.4, "name": "Hit the point2_00112" },
+					{ "time": 0.4667, "name": "Hit the point2_00114" },
+					{ "time": 0.5333, "name": "Hit the point2_00116" },
+					{ "time": 0.6, "name": "Hit the point2_00118" },
+					{ "time": 0.6667, "name": "Hit the point2_00120" },
+					{ "time": 0.7333, "name": "Hit the point2_00122" },
+					{ "time": 0.8, "name": "Hit the point2_00124" },
+					{ "time": 0.8667, "name": "Hit the point2_00126" },
+					{ "time": 0.9333, "name": "Hit the point2_00128" },
+					{ "time": 1, "name": "Hit the point2_00130" },
+					{ "time": 1.0667, "name": "Hit the point2_00132" },
+					{ "time": 1.1333, "name": "Hit the point2_00134" },
+					{ "time": 1.2, "name": "Hit the point2_00136" },
+					{ "time": 1.2667, "name": "Hit the point2_00138" },
+					{ "time": 1.3333, "name": "Hit the point2_00140" },
+					{ "time": 1.4, "name": "Hit the point2_00142" },
+					{ "time": 1.4667, "name": "Hit the point2_00144" },
+					{ "time": 1.5333, "name": "Hit the point2_00146" },
+					{ "time": 1.6, "name": "Hit the point2_00148" },
+					{ "time": 1.6667, "name": "Hit the point2_00150" },
+					{ "time": 1.7333, "name": "Hit the point2_00152" },
+					{ "time": 1.8, "name": "Hit the point2_00154" },
+					{ "time": 1.8667, "name": "Hit the point2_00156" },
+					{ "time": 1.9333, "name": "Hit the point2_00158" },
+					{ "time": 2, "name": "Hit the point2_00160" },
+					{ "time": 2.0667, "name": "Hit the point2_00162" },
+					{ "time": 2.1333, "name": "Hit the point2_00164" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.1333, "name": "the point" }
+		]
+	}
+}
+}
