@@ -15,17 +15,9 @@ export class test extends cc.Component {
     @property(cc.Animation)
     private animation: cc.Animation;
 
-    @property(cc.AnimationClip)
-    private animationClip: cc.AnimationClip;
+    @property(cc.Node)
+    private mcInCode: cc.Node;
 
-    @property(cc.SpriteAtlas)
-    private spriteAtlas: cc.SpriteAtlas;
-
-    @property(cc.SpriteFrame)
-    private spriteFrame: cc.SpriteFrame;
-
-    @property(cc.Sprite)
-    private sprite: cc.Sprite;
 
     protected onLoad() {
         this.spHit.paused = true;
@@ -40,7 +32,12 @@ export class test extends cc.Component {
             this.animation.play();
         });
 
-        this.spriteFrame.setTexture('asstes/Texture/Ch_attck.plist');
-        var aa = this.spriteFrame.getTexture();
+        this.mcInCode.addComponent('SpriteSheetAnimation');
+        
+        //cc.loader.
+        //cc.loader.("res/lookup-html5.plist", function(){
+        //    var sprite = cc.Sprite.create("grossini.bmp");
+        //});
+
 	}
 }
