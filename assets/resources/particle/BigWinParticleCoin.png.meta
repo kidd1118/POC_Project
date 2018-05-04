@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "4f3837a6-880a-4051-8ef9-82f6eb01dff2",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "BigWinParticleCoin": {
+      "ver": "1.0.3",
+      "uuid": "72c829c4-ece3-40cc-8c24-826d92164f95",
+      "rawTextureUuid": "4f3837a6-880a-4051-8ef9-82f6eb01dff2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -17.5,
+      "offsetY": 6,
+      "trimX": 0,
+      "trimY": 2,
+      "width": 221,
+      "height": 240,
+      "rawWidth": 256,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

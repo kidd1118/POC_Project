@@ -16,13 +16,14 @@ const { ccclass, property } = cc._decorator;
 export default class SpriteSheetAnimation extends cc.Component {
     
     @property(cc.Integer)
-    public fps = 30;
+    public fps = 15;
 
     @property(cc.String)
-    public path = "";
+    public path = "atlas/Ch_attck";
+    //public path = "json/Ch_jump.json";
 
     @property(cc.String)
-    public clipName = "attak_";
+    public clipName = "attck_";
 
     private sp: cc.Sprite = null;
     private ch_Atlas: cc.SpriteAtlas = null;
@@ -38,7 +39,7 @@ export default class SpriteSheetAnimation extends cc.Component {
     start() {
         var self = this;
         //較好的方式 plist 檔案需與 texture 分開 folder 或是使用不同的名稱
-        cc.loader.loadRes("plist/Ch_attck", function (err, atlas) {
+        cc.loader.loadRes(this.path, cc.SpriteAtlas, function (err, atlas) {
             self.ch_Atlas = atlas;
             self.max = atlas.getSpriteFrames().length;
             self.isPlaying = true;
