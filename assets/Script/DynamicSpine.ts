@@ -19,7 +19,7 @@ export default class DynamicSpine extends cc.Component {
 
     onLoad () {
         var self = this;
-        let texture = cc.textureCache.addImage('http://172.16.49.136:7458/res/raw-assets/resources/spine/Spine_Hit%20the%20point.png', ()=>{}, null);
+        /*let texture = cc.textureCache.addImage('http://localhost:7456/res/raw-assets/resources/spine/Spine_Hit%20the%20point.png', ()=>{}, null);
         let jsonPath = 'spine/Spine_Hit the point.json';
         let atlasPath = 'spine/Spine_Hit the point.atlas';
 
@@ -35,10 +35,33 @@ export default class DynamicSpine extends cc.Component {
                 skeletonData.skeletonJson = atlas;
         
                 self.sp.skeletonData = skeletonData;
+                self.sp.animation = "Hit the point";
                 self.sp.paused = false;
                 self.sp.loop = true;
             });
-        });
+        });*/
+
+        let jsonPath = cc.url.raw( 'resources/spine/Spine_NS_Farmer.json' );
+        let atlasPath = cc.url.raw( 'resources/spine/Spine_NS_Farmer.atlas' );
+        let texturePath = cc.url.raw( 'resources/spine/Spine_NS_Farmer.png' );
+        let texture = cc.textureCache.addImage(cc.url.raw( 'resources/spine/Spine_NS_Farmer.png' ), ()=>{}, null);
+
+        cc.loader.load( [texturePath, jsonPath, atlasPath], (err, result) => {
+            let skeletonData: sp.SkeletonData = new sp.SkeletonData();
+            skeletonData.textures = [result.getContent(texturePath)];
+            skeletonData.atlasText = result.getContent(atlasPath);
+            skeletonData.skeletonJson = result.getContent(jsonPath);
+
+            let node = new cc.Node();
+            let skeleton: sp.Skeleton = node.addComponent(sp.Skeleton); 
+            skeleton.skeletonData = skeletonData; 
+            skeleton.animation = "Idle";
+            skeleton.paused = false;
+            skeleton.loop = true;
+
+            node.setPosition(100, 100);
+            this.node.addChild(node);
+        }); 
     }
 
     start() {

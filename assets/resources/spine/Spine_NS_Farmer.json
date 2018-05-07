@@ -1,0 +1,403 @@
+{
+"skeleton": { "hash": "xAWBt3We8KEItrvdZk2hjNHuZCg", "spine": "3.4.02", "width": 2000, "height": 800 },
+"bones": [
+	{ "name": "root", "y": -800 },
+	{ "name": "F_Start", "parent": "root", "x": 1135.85, "y": 123.52 }
+],
+"slots": [
+	{ "name": "NS_BG", "bone": "root", "attachment": "NS_BG" },
+	{ "name": "FIdle_000", "bone": "root", "attachment": "FIdle_000" },
+	{ "name": "FTurn_000", "bone": "root", "attachment": "FTurn_000" },
+	{ "name": "FWork_000", "bone": "root", "attachment": "FWork_000" },
+	{ "name": "F_Start", "bone": "F_Start", "attachment": "F_Start" }
+],
+"skins": {
+	"default": {
+		"FIdle_000": {
+			"FIdle_000": { "x": 1125.5, "y": 246, "width": 295, "height": 284 },
+			"FIdle_001": { "x": 1125.5, "y": 246, "width": 295, "height": 284 },
+			"FIdle_002": { "x": 1125, "y": 246.5, "width": 294, "height": 283 },
+			"FIdle_003": { "x": 1124.5, "y": 246.5, "width": 293, "height": 283 },
+			"FIdle_004": { "x": 1124.5, "y": 246.5, "width": 293, "height": 283 },
+			"FIdle_005": { "x": 1124, "y": 247, "width": 292, "height": 282 },
+			"FIdle_006": { "x": 1123.5, "y": 247, "width": 291, "height": 282 },
+			"FIdle_007": { "x": 1123, "y": 247, "width": 290, "height": 282 },
+			"FIdle_008": { "x": 1123.5, "y": 247.5, "width": 291, "height": 281 },
+			"FIdle_009": { "x": 1123.5, "y": 247, "width": 291, "height": 282 },
+			"FIdle_010": { "x": 1123.5, "y": 247, "width": 291, "height": 282 },
+			"FIdle_011": { "x": 1123.5, "y": 247, "width": 291, "height": 282 },
+			"FIdle_012": { "x": 1123.5, "y": 247, "width": 291, "height": 282 },
+			"FIdle_013": { "x": 1123.5, "y": 246.5, "width": 291, "height": 283 },
+			"FIdle_014": { "x": 1124.5, "y": 246.5, "width": 293, "height": 283 },
+			"FIdle_015": { "x": 1124.5, "y": 246.5, "width": 293, "height": 283 },
+			"FIdle_016": { "x": 1125, "y": 246, "width": 294, "height": 282 },
+			"FIdle_017": { "x": 1125, "y": 245.5, "width": 294, "height": 283 },
+			"FIdle_018": { "x": 1125.5, "y": 245.5, "width": 295, "height": 283 },
+			"FIdle_019": { "x": 1125, "y": 245.5, "width": 294, "height": 283 }
+		},
+		"FTurn_000": {
+			"FTurn_000": { "x": 1124.5, "y": 246, "width": 295, "height": 284 },
+			"FTurn_001": { "x": 1125, "y": 247.5, "width": 296, "height": 283 },
+			"FTurn_002": { "x": 1123, "y": 251.5, "width": 292, "height": 277 },
+			"FTurn_003": { "x": 1116, "y": 250.5, "width": 278, "height": 279 },
+			"FTurn_004": { "x": 1116, "y": 251.5, "width": 278, "height": 277 },
+			"FTurn_005": { "x": 1116, "y": 252, "width": 278, "height": 276 },
+			"FTurn_006": { "x": 1116, "y": 252.5, "width": 278, "height": 275 },
+			"FTurn_007": { "x": 1116, "y": 252, "width": 278, "height": 274 }
+		},
+		"FWork_000": {
+			"FWork_000": { "x": 1116, "y": 252.5, "width": 280, "height": 271 },
+			"FWork_001": { "x": 1116, "y": 252, "width": 280, "height": 270 },
+			"FWork_002": { "x": 1116, "y": 251.5, "width": 280, "height": 269 },
+			"FWork_003": { "x": 1116, "y": 251, "width": 280, "height": 268 },
+			"FWork_004": { "x": 1116, "y": 250, "width": 280, "height": 266 },
+			"FWork_005": { "x": 1116, "y": 249, "width": 280, "height": 264 },
+			"FWork_006": { "x": 1118.5, "y": 248, "width": 285, "height": 262 },
+			"FWork_007": { "x": 1116, "y": 247, "width": 280, "height": 260 },
+			"FWork_008": { "x": 1119, "y": 246.5, "width": 286, "height": 259 },
+			"FWork_009": { "x": 1118.5, "y": 246, "width": 285, "height": 258 },
+			"FWork_010": { "x": 1119, "y": 246, "width": 286, "height": 258 },
+			"FWork_011": { "x": 1118.5, "y": 245.5, "width": 285, "height": 257 },
+			"FWork_012": { "x": 1119, "y": 245.5, "width": 286, "height": 257 },
+			"FWork_013": { "x": 1119.5, "y": 245.5, "width": 287, "height": 257 },
+			"FWork_014": { "x": 1119.5, "y": 245.5, "width": 287, "height": 257 },
+			"FWork_015": { "x": 1119.5, "y": 245.5, "width": 287, "height": 257 },
+			"FWork_016": { "x": 1120, "y": 246, "width": 288, "height": 258 },
+			"FWork_017": { "x": 1119, "y": 246.5, "width": 286, "height": 259 },
+			"FWork_018": { "x": 1119, "y": 247.5, "width": 286, "height": 261 },
+			"FWork_019": { "x": 1119, "y": 248.5, "width": 286, "height": 263 },
+			"FWork_020": { "x": 1118, "y": 249.5, "width": 284, "height": 265 },
+			"FWork_021": { "x": 1117, "y": 250.5, "width": 282, "height": 267 },
+			"FWork_022": { "x": 1116, "y": 251, "width": 280, "height": 268 },
+			"FWork_023": { "x": 1119, "y": 252, "width": 286, "height": 270 },
+			"FWork_024": { "x": 1119, "y": 252, "width": 286, "height": 270 },
+			"FWork_025": { "x": 1116, "y": 252.5, "width": 280, "height": 271 },
+			"FWork_026": { "x": 1116, "y": 252.5, "width": 280, "height": 271 },
+			"FWork_027": { "x": 1116, "y": 252.5, "width": 280, "height": 271 },
+			"FWork_028": { "x": 1119, "y": 252.5, "width": 286, "height": 271 }
+		},
+		"F_Start": {
+			"F_Start": { "x": -9.85, "y": 122.47, "width": 295, "height": 284 }
+		},
+		"NS_BG": {
+			"NS_BG": { "x": 640, "y": 400, "width": 2000, "height": 800 }
+		}
+	}
+},
+"events": {
+	"InitEnd": {}
+},
+"animations": {
+	"Idle": {
+		"slots": {
+			"FIdle_000": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "FIdle_000" },
+					{ "time": 0.0666, "name": "FIdle_001" },
+					{ "time": 0.1333, "name": "FIdle_002" },
+					{ "time": 0.2, "name": "FIdle_003" },
+					{ "time": 0.2666, "name": "FIdle_004" },
+					{ "time": 0.3333, "name": "FIdle_005" },
+					{ "time": 0.4, "name": "FIdle_006" },
+					{ "time": 0.4666, "name": "FIdle_007" },
+					{ "time": 0.5333, "name": "FIdle_008" },
+					{ "time": 0.6, "name": "FIdle_009" },
+					{ "time": 0.6666, "name": "FIdle_010" },
+					{ "time": 0.7333, "name": "FIdle_011" },
+					{ "time": 0.8, "name": "FIdle_012" },
+					{ "time": 0.8666, "name": "FIdle_013" },
+					{ "time": 0.9333, "name": "FIdle_014" },
+					{ "time": 1, "name": "FIdle_015" },
+					{ "time": 1.0666, "name": "FIdle_016" },
+					{ "time": 1.1333, "name": "FIdle_017" },
+					{ "time": 1.2, "name": "FIdle_018" },
+					{ "time": 1.2666, "name": "FIdle_019" },
+					{ "time": 1.3, "name": "FIdle_019" }
+				]
+			},
+			"FTurn_000": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffff00" }
+				]
+			},
+			"FWork_000": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffff00" }
+				]
+			},
+			"F_Start": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"NS_BG": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.3, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"Init": {
+		"slots": {
+			"FIdle_000": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"FTurn_000": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"FWork_000": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"NS_BG": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"F_Start": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 329.53,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 304.3,
+						"y": 79.76,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.2666,
+						"x": 180.46,
+						"y": 112.24,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 79.78,
+						"y": 75.52,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.1,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6666, "name": "InitEnd" }
+		]
+	},
+	"Work": {
+		"slots": {
+			"FIdle_000": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.8666, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "FIdle_000" }
+				]
+			},
+			"FTurn_000": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.3666, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 4.8666, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "time": 0, "name": "FTurn_000" },
+					{ "time": 0.0666, "name": "FTurn_001" },
+					{ "time": 0.1333, "name": "FTurn_002" },
+					{ "time": 0.2, "name": "FTurn_003" },
+					{ "time": 0.2666, "name": "FTurn_004" },
+					{ "time": 0.3333, "name": "FTurn_005" },
+					{ "time": 0.4, "name": "FTurn_006" },
+					{ "time": 0.4666, "name": "FTurn_007" },
+					{ "time": 0.5, "name": "FTurn_007" },
+					{ "time": 4.4, "name": "FTurn_007" },
+					{ "time": 4.4666, "name": "FTurn_006" },
+					{ "time": 4.5333, "name": "FTurn_005" },
+					{ "time": 4.6, "name": "FTurn_004" },
+					{ "time": 4.6666, "name": "FTurn_003" },
+					{ "time": 4.7333, "name": "FTurn_002" },
+					{ "time": 4.8, "name": "FTurn_001" },
+					{ "time": 4.8666, "name": "FTurn_000" }
+				]
+			},
+			"FWork_000": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 4.3666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 4.4, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.8666, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.5333, "name": "FWork_000" },
+					{ "time": 0.5666, "name": "FWork_001" },
+					{ "time": 0.6, "name": "FWork_002" },
+					{ "time": 0.6333, "name": "FWork_003" },
+					{ "time": 0.6666, "name": "FWork_004" },
+					{ "time": 0.7, "name": "FWork_005" },
+					{ "time": 0.7333, "name": "FWork_006" },
+					{ "time": 0.7666, "name": "FWork_007" },
+					{ "time": 0.8, "name": "FWork_008" },
+					{ "time": 0.8333, "name": "FWork_009" },
+					{ "time": 0.8666, "name": "FWork_010" },
+					{ "time": 0.9, "name": "FWork_011" },
+					{ "time": 0.9333, "name": "FWork_012" },
+					{ "time": 0.9666, "name": "FWork_013" },
+					{ "time": 1, "name": "FWork_014" },
+					{ "time": 1.0333, "name": "FWork_015" },
+					{ "time": 1.0666, "name": "FWork_016" },
+					{ "time": 1.1, "name": "FWork_017" },
+					{ "time": 1.1333, "name": "FWork_018" },
+					{ "time": 1.1666, "name": "FWork_019" },
+					{ "time": 1.2, "name": "FWork_020" },
+					{ "time": 1.2333, "name": "FWork_021" },
+					{ "time": 1.2666, "name": "FWork_022" },
+					{ "time": 1.3, "name": "FWork_023" },
+					{ "time": 1.3333, "name": "FWork_024" },
+					{ "time": 1.3666, "name": "FWork_025" },
+					{ "time": 1.4, "name": "FWork_026" },
+					{ "time": 1.4333, "name": "FWork_027" },
+					{ "time": 1.4666, "name": "FWork_028" },
+					{ "time": 1.5, "name": "FWork_000" },
+					{ "time": 1.5333, "name": "FWork_001" },
+					{ "time": 1.5666, "name": "FWork_002" },
+					{ "time": 1.6, "name": "FWork_003" },
+					{ "time": 1.6333, "name": "FWork_004" },
+					{ "time": 1.6666, "name": "FWork_005" },
+					{ "time": 1.7, "name": "FWork_006" },
+					{ "time": 1.7333, "name": "FWork_007" },
+					{ "time": 1.7666, "name": "FWork_008" },
+					{ "time": 1.8, "name": "FWork_009" },
+					{ "time": 1.8333, "name": "FWork_010" },
+					{ "time": 1.8666, "name": "FWork_011" },
+					{ "time": 1.9, "name": "FWork_012" },
+					{ "time": 1.9333, "name": "FWork_013" },
+					{ "time": 1.9666, "name": "FWork_014" },
+					{ "time": 2, "name": "FWork_015" },
+					{ "time": 2.0333, "name": "FWork_016" },
+					{ "time": 2.0666, "name": "FWork_017" },
+					{ "time": 2.1, "name": "FWork_018" },
+					{ "time": 2.1333, "name": "FWork_019" },
+					{ "time": 2.1666, "name": "FWork_020" },
+					{ "time": 2.2, "name": "FWork_021" },
+					{ "time": 2.2333, "name": "FWork_022" },
+					{ "time": 2.2666, "name": "FWork_023" },
+					{ "time": 2.3, "name": "FWork_024" },
+					{ "time": 2.3333, "name": "FWork_025" },
+					{ "time": 2.3666, "name": "FWork_026" },
+					{ "time": 2.4, "name": "FWork_027" },
+					{ "time": 2.4333, "name": "FWork_028" },
+					{ "time": 2.4666, "name": "FWork_000" },
+					{ "time": 2.5, "name": "FWork_001" },
+					{ "time": 2.5333, "name": "FWork_002" },
+					{ "time": 2.5666, "name": "FWork_003" },
+					{ "time": 2.6, "name": "FWork_004" },
+					{ "time": 2.6333, "name": "FWork_005" },
+					{ "time": 2.6666, "name": "FWork_006" },
+					{ "time": 2.7, "name": "FWork_007" },
+					{ "time": 2.7333, "name": "FWork_008" },
+					{ "time": 2.7666, "name": "FWork_009" },
+					{ "time": 2.8, "name": "FWork_010" },
+					{ "time": 2.8333, "name": "FWork_011" },
+					{ "time": 2.8666, "name": "FWork_012" },
+					{ "time": 2.9, "name": "FWork_013" },
+					{ "time": 2.9333, "name": "FWork_014" },
+					{ "time": 2.9666, "name": "FWork_015" },
+					{ "time": 3, "name": "FWork_016" },
+					{ "time": 3.0333, "name": "FWork_017" },
+					{ "time": 3.0666, "name": "FWork_018" },
+					{ "time": 3.1, "name": "FWork_019" },
+					{ "time": 3.1333, "name": "FWork_020" },
+					{ "time": 3.1666, "name": "FWork_021" },
+					{ "time": 3.2, "name": "FWork_022" },
+					{ "time": 3.2333, "name": "FWork_023" },
+					{ "time": 3.2666, "name": "FWork_024" },
+					{ "time": 3.3, "name": "FWork_025" },
+					{ "time": 3.3333, "name": "FWork_026" },
+					{ "time": 3.3666, "name": "FWork_027" },
+					{ "time": 3.4, "name": "FWork_028" },
+					{ "time": 3.4333, "name": "FWork_000" },
+					{ "time": 3.4666, "name": "FWork_001" },
+					{ "time": 3.5, "name": "FWork_002" },
+					{ "time": 3.5333, "name": "FWork_003" },
+					{ "time": 3.5666, "name": "FWork_004" },
+					{ "time": 3.6, "name": "FWork_005" },
+					{ "time": 3.6333, "name": "FWork_006" },
+					{ "time": 3.6666, "name": "FWork_007" },
+					{ "time": 3.7, "name": "FWork_008" },
+					{ "time": 3.7333, "name": "FWork_009" },
+					{ "time": 3.7666, "name": "FWork_010" },
+					{ "time": 3.8, "name": "FWork_011" },
+					{ "time": 3.8333, "name": "FWork_012" },
+					{ "time": 3.8666, "name": "FWork_013" },
+					{ "time": 3.9, "name": "FWork_014" },
+					{ "time": 3.9333, "name": "FWork_015" },
+					{ "time": 3.9666, "name": "FWork_016" },
+					{ "time": 4, "name": "FWork_017" },
+					{ "time": 4.0333, "name": "FWork_018" },
+					{ "time": 4.0666, "name": "FWork_019" },
+					{ "time": 4.1, "name": "FWork_020" },
+					{ "time": 4.1333, "name": "FWork_021" },
+					{ "time": 4.1666, "name": "FWork_022" },
+					{ "time": 4.2, "name": "FWork_023" },
+					{ "time": 4.2333, "name": "FWork_024" },
+					{ "time": 4.2666, "name": "FWork_025" },
+					{ "time": 4.3, "name": "FWork_026" },
+					{ "time": 4.3333, "name": "FWork_027" },
+					{ "time": 4.3666, "name": "FWork_028" }
+				]
+			},
+			"F_Start": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"NS_BG": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.8666, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

@@ -42,24 +42,24 @@ export class test extends cc.Component {
     private labelSpineCount: cc.Label;
     private spineCount: number = 0;
 
-    @property(sp.Skeleton)
-    private spineInCode: sp.Skeleton;
+    @property(cc.Node)
+    private spineInCode: cc.Node;
 
     protected onLoad() {
         this.spHit.paused = true;
         this.animation.stop();
 
         let btnPlaySpine: cc.Node = cc.find("Canvas/btnPlaySpine");
-        btnPlaySpine.on(cc.Node.EventType.MOUSE_DOWN, ()=> {
+        btnPlaySpine.on(cc.Node.EventType.TOUCH_START, ()=> {
 
             this.spHit.paused = !this.spHit.paused;
         });
 
-        this.btnPlaySpriteSheet.on(cc.Node.EventType.MOUSE_DOWN, ()=> {
+        this.btnPlaySpriteSheet.on(cc.Node.EventType.TOUCH_START, ()=> {
             this.animation.play();
         });
 
-        this.btnAddSpriteSheet.on(cc.Node.EventType.MOUSE_DOWN, ()=> {
+        this.btnAddSpriteSheet.on(cc.Node.EventType.TOUCH_START, ()=> {
             var _node: cc.Node = new cc.Node();
             _node.x = Math.random() * 100;
             _node.y = 100;
@@ -69,7 +69,7 @@ export class test extends cc.Component {
             this.labelAnimCount.string = (++this.anminCount).toString();
         });
 
-        this.btnAddParticle.on(cc.Node.EventType.MOUSE_DOWN, ()=> {
+        this.btnAddParticle.on(cc.Node.EventType.TOUCH_START, ()=> {
             var _node: cc.Node = new cc.Node();
             _node.x = Math.random() * 100;
             _node.y = 100;
@@ -79,12 +79,12 @@ export class test extends cc.Component {
             this.labelParticleCount.string = (++this.particleCount).toString();
         });
 
-        this.btnAddSpine.on(cc.Node.EventType.MOUSE_DOWN, ()=> {
+        this.btnAddSpine.on(cc.Node.EventType.TOUCH_START, ()=> {
             var _node: cc.Node = new cc.Node();
             _node.x = Math.random() * 100;
             _node.y = 100;
             _node.addComponent('DynamicSpine');
-            this.ParticleInCode.addChild(_node);
+            this.spineInCode.addChild(_node);
 
             this.labelSpineCount.string = (++this.spineCount).toString();
 
