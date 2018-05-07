@@ -12,6 +12,12 @@ export class test extends cc.Component {
     @property(cc.Node)
     private btnAddSpriteSheet: cc.Node;
 
+    @property(cc.Node)
+    private btnAddParticle: cc.Node;
+
+    @property(cc.Node)
+    private btnAddSpine: cc.Node;
+
     @property(sp.Skeleton)
     private spHit: sp.Skeleton;
 
@@ -22,13 +28,22 @@ export class test extends cc.Component {
     private mcInCode: cc.Node;
 
     @property(cc.Node)
-    private spineInCode: cc.Node;
+    private ParticleInCode: cc.Node;
 
     @property(cc.Label)
     private labelAnimCount: cc.Label;
     private anminCount: number = 0;
 
-    private spinetest: sp.Skeleton;
+    @property(cc.Label)
+    private labelParticleCount: cc.Label;
+    private particleCount: number = 0;
+
+    @property(cc.Label)
+    private labelSpineCount: cc.Label;
+    private spineCount: number = 0;
+
+    @property(sp.Skeleton)
+    private spineInCode: sp.Skeleton;
 
     protected onLoad() {
         this.spHit.paused = true;
@@ -36,24 +51,8 @@ export class test extends cc.Component {
 
         let btnPlaySpine: cc.Node = cc.find("Canvas/btnPlaySpine");
         btnPlaySpine.on(cc.Node.EventType.MOUSE_DOWN, ()=> {
-            //this.spHit.paused = !this.spHit.paused;
 
-            let texture = cc.textureCache.addImage('resources/spine/Spine_Hit the point.png', ()=>{}, null);
-            let jsonPath = 'resources/spine/Spine_Hit the point.json';
-            let atlasPath = 'resources/spine/Spine_Hit the point.atlas';
-
-            cc.loader.load([jsonPath, atlasPath], (err, result) => {
-
-                var skeletonData = new sp.SkeletonData();
-                skeletonData.textures = [texture];
-                skeletonData.atlasText = result.getContent(atlasPath);
-                skeletonData.skeletonJson = result.getContent(jsonPath);
-        
-                this.spinetest.skeletonData = skeletonData; 
-        
-                //node.setPosition(200, 200);
-                //this.node.addChild(node, 5);
-            });
+            this.spHit.paused = !this.spHit.paused;
         });
 
         this.btnPlaySpriteSheet.on(cc.Node.EventType.MOUSE_DOWN, ()=> {
@@ -66,7 +65,41 @@ export class test extends cc.Component {
             _node.y = 100;
             _node.addComponent('SpriteSheetAnimation');
             this.mcInCode.addChild(_node);
+
             this.labelAnimCount.string = (++this.anminCount).toString();
+        });
+
+        this.btnAddParticle.on(cc.Node.EventType.MOUSE_DOWN, ()=> {
+            var _node: cc.Node = new cc.Node();
+            _node.x = Math.random() * 100;
+            _node.y = 100;
+            _node.addComponent('ParticleTest');
+            this.ParticleInCode.addChild(_node);
+
+            this.labelParticleCount.string = (++this.particleCount).toString();
+        });
+
+        this.btnAddSpine.on(cc.Node.EventType.MOUSE_DOWN, ()=> {
+            var _node: cc.Node = new cc.Node();
+            _node.x = Math.random() * 100;
+            _node.y = 100;
+            _node.addComponent('DynamicSpine');
+            this.ParticleInCode.addChild(_node);
+
+            this.labelSpineCount.string = (++this.spineCount).toString();
+
+            //cc.loader.load([jsonPath, atlasPath], (err, result) => {
+
+            //    var skeletonData = new sp.SkeletonData();
+            //    skeletonData.textures = [texture];
+            //    skeletonData.atlasText = result.getContent(atlasPath);
+            //    skeletonData.skeletonJson = result.getContent(jsonPath);
+        
+            //    this.spineInCode.skeletonData = skeletonData;
+
+                //node.setPosition(200, 200);
+                //this.node.addChild(node, 5);
+            //});
         });
 
 	}
