@@ -1,0 +1,53 @@
+{
+    "BIGWIN_LQ": {
+        "ani": [
+            "LOOP",
+            "START"
+        ]
+    },
+    "BIGWIN": {
+        "ani": [
+            "LOOP",
+            "START"
+        ]
+    },
+    "FS_BG": {
+        "ani": [
+            "Idle"
+        ]
+    },
+    "Hit the point": {
+        "ani": [
+            "Hit the point"
+        ]
+    },
+    "Multiple_BG": {
+        "ani": [
+            "Idle"
+        ]
+    },
+    "NS_BG": {
+        "ani": [
+            "Idle"
+        ]
+    },
+    "NS_Farmer": {
+        "ani": [
+            "Idle",
+            "Init",
+            "Work"
+        ]
+    },
+    "YouGotFreeSpin_LQ": {
+        "ani": [
+            "ResultAnim",
+            "Init"
+        ]
+    },
+    "YouGotFreeSpin": {
+        "ani": [
+            "ResultAnim",
+            "Init"
+        ]
+    }
+}
