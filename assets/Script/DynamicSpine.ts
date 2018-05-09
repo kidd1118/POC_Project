@@ -20,7 +20,7 @@ export default class DynamicSpine extends cc.Component {
     onLoad () {
         var self = this;
 
-        cc.loader.loadRes('spine/Spine_NS_Farmer', sp.SkeletonData, (err, result) => {
+        cc.loader.loadRes('spine/Spine_NS_Farmer/Spine_NS_Farmer', sp.SkeletonData, (err, result) => {
             let node = new cc.Node();
             let skeleton: sp.Skeleton = node.addComponent(sp.Skeleton);
             skeleton.skeletonData = result;

@@ -1,3 +1,5 @@
+import SpriteSheetAnimation from "./SpriteSheetAnimation";
+
 const {ccclass, property} = cc._decorator;
 
 @ccclass
@@ -51,7 +53,7 @@ export class test extends cc.Component {
 
         let btnPlaySpine: cc.Node = cc.find("Canvas/btnPlaySpine");
         btnPlaySpine.on(cc.Node.EventType.TOUCH_START, ()=> {
-
+            
             this.spHit.paused = !this.spHit.paused;
         });
 
@@ -63,7 +65,9 @@ export class test extends cc.Component {
             var _node: cc.Node = new cc.Node();
             _node.x = Math.random() * 100;
             _node.y = 100;
-            _node.addComponent('SpriteSheetAnimation');
+            let sani : SpriteSheetAnimation = _node.addComponent('SpriteSheetAnimation');
+            sani.Apply("atlas/Ch_attck" , "attck_");
+
             this.mcInCode.addChild(_node);
 
             this.labelAnimCount.string = (++this.anminCount).toString();
