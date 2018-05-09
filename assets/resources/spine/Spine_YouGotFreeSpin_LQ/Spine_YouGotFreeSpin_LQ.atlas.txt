@@ -1,0 +1,83 @@
+
+Spine_YouGotFreeSpin_LQ.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Alpha
+  rotate: false
+  xy: 310, 361
+  size: 128, 80
+  orig: 128, 80
+  offset: 0, 0
+  index: -1
+E1
+  rotate: false
+  xy: 1053, 504
+  size: 126, 215
+  orig: 1280, 800
+  offset: 392, 172
+  index: -1
+E2
+  rotate: false
+  xy: 1188, 1081
+  size: 126, 214
+  orig: 1280, 800
+  offset: 510, 178
+  index: -1
+F
+  rotate: false
+  xy: 0, 0
+  size: 129, 201
+  orig: 1280, 800
+  offset: 131, 155
+  index: -1
+FreeSpin
+  rotate: false
+  xy: 0, 447
+  size: 1047, 272
+  orig: 1280, 800
+  offset: 121, 154
+  index: -1
+I
+  rotate: false
+  xy: 1499, 1317
+  size: 78, 208
+  orig: 1280, 800
+  offset: 919, 172
+  index: -1
+N
+  rotate: false
+  xy: 144, 249
+  size: 160, 192
+  orig: 1280, 800
+  offset: 993, 168
+  index: -1
+P
+  rotate: false
+  xy: 1188, 1301
+  size: 149, 224
+  orig: 1280, 800
+  offset: 779, 174
+  index: -1
+R
+  rotate: false
+  xy: 1343, 1313
+  size: 150, 212
+  orig: 1280, 800
+  offset: 250, 163
+  index: -1
+Rainbow
+  rotate: false
+  xy: 0, 725
+  size: 1182, 800
+  orig: 1280, 800
+  offset: 46, 0
+  index: -1
+S
+  rotate: false
+  xy: 0, 207
+  size: 138, 234
+  orig: 1280, 800
+  offset: 647, 172
+  index: -1
