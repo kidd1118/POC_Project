@@ -28,12 +28,12 @@ export default class PocParticle extends PocCommon {
         component.resetSystem();
 
         let child: cc.Node = this.displayWindow.getChildByName(this.curType);
-        if (child == null){
+        if (child == null) {
             child = new cc.Node();
             child.name = this.curType;
             this.displayWindow.addChild(child);
         }
-
+        
         child.addChild(node);
         this.count++;
     }

@@ -34,5 +34,6 @@ export default class PocSpriteSheet extends PocCommon {
 
         child.addChild(node);
         this.count++;
+        return node;
     }
 }
