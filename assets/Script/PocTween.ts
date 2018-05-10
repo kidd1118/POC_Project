@@ -6,31 +6,30 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class PocTween extends PocCommon {
 
-    private _pss: PocSpriteSheet = null;
-    private _sp: cc.Node = null
-    private _isRun: boolean = false;
+    protected _pss: PocSpriteSheet = null;
+    protected _sp: cc.Node = null
+    protected _isRun: boolean = false;
 
-    _max: number = 0;
-    _min: number = 0;
+    protected _max: number = 0;
+    protected _min: number = 0;
+    protected _enableAddBtnTxt = "Tween Pos";
 
     start() {
         this._pss = cc.find("Canvas").getComponentInChildren(PocSpriteSheet);
         this.isReady = (this._pss !== null);
 
-        this.list = ["easeIn", "easeInOut", "easeBackIn", "easeBounceIn"];
+        this.list = ["easeIn", "easeInOut", "easeBackIn", "easeBounceIn", "easeQuarticActionIn"];
         this.curType = this.list[0];
 
         this._min = -this.displayWindow.width / 3 + 50;
         this._max = this.displayWindow.width / 2;
-
-        cc.find("Canvas").on("clear_screen", this._onClear.bind(this));
     }
 
-    _onClear() {
-        console.log("_onClearScreen " + this._sp);
+    _onClean() {
         this._sp = null;
         this._isRun = false;
-        this.btn_add.getComponentInChildren(cc.Label).string = this._isRun ? "Stop" : "Start Tween";
+        this.unscheduleAllCallbacks();
+        this.btn_add.getComponentInChildren(cc.Label).string = this._isRun ? "Stop" : this._enableAddBtnTxt;
     }
 
     _onAdd() {
@@ -63,12 +62,13 @@ export default class PocTween extends PocCommon {
         this.scheduleOnce(this._run.bind(this), 1);
     }
 
-    _switchEase(thetype: string) {
+     protected _switchEase(thetype: string) {
         switch (thetype) {
             case "easeIn": return cc.easeIn(3);
             case "easeInOut": return cc.easeInOut(3);
             case "easeBackIn": return cc.easeBackIn();
             case "easeBounceIn": return cc.easeBounceIn();
+            case "easeQuarticActionIn": return cc.easeQuarticActionIn();
         }
     }
 }
