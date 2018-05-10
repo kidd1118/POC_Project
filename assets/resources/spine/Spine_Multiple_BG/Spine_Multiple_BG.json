@@ -1,0 +1,98 @@
+{
+"skeleton": { "hash": "2BetRcnU4hkcmx2MdaTXxWJ6wic", "spine": "3.4.02", "width": 1280, "height": 1600 },
+"bones": [
+	{ "name": "root", "y": -800 },
+	{ "name": "Line", "parent": "root", "x": 640, "y": 400, "scaleX": 2, "scaleY": 2 },
+	{ "name": "Star", "parent": "root", "x": 640, "y": 400 },
+	{ "name": "Star2", "parent": "root", "x": 640, "y": 800 },
+	{ "name": "Star3", "parent": "root", "x": 640 }
+],
+"slots": [
+	{ "name": "Alpha", "bone": "root", "attachment": "Alpha", "blend": "multiply" },
+	{ "name": "Rainbow", "bone": "root", "attachment": "Rainbow" },
+	{ "name": "Star", "bone": "Star", "attachment": "Star", "blend": "additive" },
+	{ "name": "Star2", "bone": "Star2", "attachment": "Star", "blend": "additive" },
+	{ "name": "Star3", "bone": "Star3", "attachment": "Star", "blend": "additive" },
+	{ "name": "Line_0", "bone": "Line", "attachment": "Line_9", "blend": "screen" }
+],
+"skins": {
+	"default": {
+		"Alpha": {
+			"Alpha": { "x": 640, "y": 400, "scaleX": 1.1, "scaleY": 1.1, "width": 1280, "height": 800 }
+		},
+		"Line_0": {
+			"Line_0": { "width": 640, "height": 400 },
+			"Line_1": { "width": 640, "height": 400 },
+			"Line_2": { "width": 640, "height": 400 },
+			"Line_3": { "width": 640, "height": 400 },
+			"Line_4": { "width": 640, "height": 400 },
+			"Line_5": { "width": 640, "height": 400 },
+			"Line_6": { "width": 640, "height": 400 },
+			"Line_7": { "width": 640, "height": 400 },
+			"Line_8": { "width": 640, "height": 400 },
+			"Line_9": { "width": 640, "height": 400 }
+		},
+		"Rainbow": {
+			"Rainbow": { "x": 640, "y": 400, "width": 1280, "height": 800 }
+		},
+		"Star": {
+			"Star": { "width": 1280, "height": 800 }
+		},
+		"Star2": {
+			"Star": { "width": 1280, "height": 800 }
+		},
+		"Star3": {
+			"Star": { "width": 1280, "height": 800 }
+		}
+	}
+},
+"animations": {
+	"Idle": {
+		"slots": {
+			"Alpha": {
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff" }
+				]
+			},
+			"Line_0": {
+				"attachment": [
+					{ "time": 0, "name": "Line_0" },
+					{ "time": 0.0666, "name": "Line_1" },
+					{ "time": 0.1333, "name": "Line_2" },
+					{ "time": 0.2, "name": "Line_3" },
+					{ "time": 0.2666, "name": "Line_4" },
+					{ "time": 0.3333, "name": "Line_5" },
+					{ "time": 0.4, "name": "Line_6" },
+					{ "time": 0.4666, "name": "Line_7" },
+					{ "time": 0.5333, "name": "Line_8" },
+					{ "time": 0.6, "name": "Line_9" },
+					{ "time": 0.6666, "name": "Line_0" }
+				]
+			}
+		},
+		"bones": {
+			"Star2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0, "y": -400 }
+				]
+			},
+			"Star": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0, "y": -400 }
+				]
+			},
+			"Star3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": -200, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 1000 },
+					{ "time": 0.6666, "x": 0, "y": 800 }
+				]
+			}
+		}
+	}
+}
+}

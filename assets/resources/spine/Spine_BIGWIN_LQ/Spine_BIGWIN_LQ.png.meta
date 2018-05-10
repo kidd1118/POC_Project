@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "4d5a3eb8-3d3e-407f-ba95-1c4e659b0c70",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "Spine_BIGWIN_LQ": {
+      "ver": "1.0.3",
+      "uuid": "3c7cf532-e639-427c-956d-452fe2061935",
+      "rawTextureUuid": "4d5a3eb8-3d3e-407f-ba95-1c4e659b0c70",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -43,
+      "offsetY": 13.5,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1958,
+      "height": 993,
+      "rawWidth": 2048,
+      "rawHeight": 1024,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

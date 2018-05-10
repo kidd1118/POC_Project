@@ -1,0 +1,153 @@
+
+Spine_BIGWIN_LQ.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_dark
+  rotate: false
+  xy: 2, 123
+  size: 128, 80
+  orig: 128, 80
+  offset: 0, 0
+  index: -1
+LEAF_L01
+  rotate: false
+  xy: 1841, 848
+  size: 59, 61
+  orig: 1280, 800
+  offset: 378, 617
+  index: -1
+LEAF_L01_blr
+  rotate: false
+  xy: 1841, 911
+  size: 59, 84
+  orig: 1280, 800
+  offset: 378, 606
+  index: -1
+LEAF_L02
+  rotate: false
+  xy: 132, 133
+  size: 57, 70
+  orig: 1280, 800
+  offset: 386, 566
+  index: -1
+LEAF_L02_blr
+  rotate: false
+  xy: 724, 633
+  size: 57, 95
+  orig: 1280, 800
+  offset: 386, 554
+  index: -1
+LEAF_L03
+  rotate: false
+  xy: 2, 2
+  size: 51, 38
+  orig: 1280, 800
+  offset: 368, 569
+  index: -1
+LEAF_L03_blr
+  rotate: false
+  xy: 1504, 523
+  size: 51, 61
+  orig: 1280, 800
+  offset: 368, 558
+  index: -1
+LEAF_L04
+  rotate: false
+  xy: 1902, 934
+  size: 58, 61
+  orig: 1280, 800
+  offset: 357, 423
+  index: -1
+LEAF_L04_blr
+  rotate: false
+  xy: 1444, 499
+  size: 58, 85
+  orig: 1280, 800
+  offset: 357, 412
+  index: -1
+LEAF_R01
+  rotate: false
+  xy: 783, 586
+  size: 65, 54
+  orig: 1280, 800
+  offset: 877, 586
+  index: -1
+LEAF_R01_blr
+  rotate: false
+  xy: 2, 42
+  size: 64, 79
+  orig: 1280, 800
+  offset: 877, 574
+  index: -1
+LEAF_R02
+  rotate: false
+  xy: 1444, 435
+  size: 51, 62
+  orig: 1280, 800
+  offset: 873, 441
+  index: -1
+LEAF_R02_blr
+  rotate: false
+  xy: 783, 642
+  size: 50, 86
+  orig: 1280, 800
+  offset: 874, 429
+  index: -1
+LOOP_board_UP02_shine_000
+  rotate: false
+  xy: 2, 205
+  size: 720, 523
+  orig: 1280, 800
+  offset: 296, 277
+  index: -1
+L_vine
+  rotate: false
+  xy: 1395, 187
+  size: 47, 397
+  orig: 1280, 800
+  offset: 418, 403
+  index: -1
+L_vine_blr
+  rotate: false
+  xy: 1794, 586
+  size: 45, 409
+  orig: 1280, 800
+  offset: 419, 391
+  index: -1
+R_vine
+  rotate: false
+  xy: 1317, 187
+  size: 76, 397
+  orig: 1280, 800
+  offset: 831, 403
+  index: -1
+R_vine_blr
+  rotate: false
+  xy: 1716, 586
+  size: 76, 409
+  orig: 1280, 800
+  offset: 831, 391
+  index: -1
+board_DOWN
+  rotate: false
+  xy: 2, 730
+  size: 1117, 265
+  orig: 1280, 800
+  offset: 93, 137
+  index: -1
+board_UP02
+  rotate: false
+  xy: 1121, 586
+  size: 593, 409
+  orig: 1280, 800
+  offset: 353, 357
+  index: -1
+board_UP02_blr
+  rotate: false
+  xy: 724, 153
+  size: 591, 431
+  orig: 1280, 800
+  offset: 354, 347
+  index: -1

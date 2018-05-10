@@ -1,0 +1,29 @@
+{
+    "keys": [
+        "FS_Boom",
+        "FreeSpinComL_light",
+        "Listen",
+        "Scatter",
+        "Ch_attck"
+    ],
+    "FS_Boom": {
+        "path": "spritesheet/FS_Boom/FS_Boom",
+        "clip": "FS_Boom_"
+    },
+    "FreeSpinComL_light": {
+        "path": "spritesheet/FreeSpinComL_light/FreeSpinComL_light",
+        "clip": ""
+    },
+    "Listen": {
+        "path": "spritesheet/Listen/Listen",
+        "clip": "Rainbow_"
+    },
+    "Scatter": {
+        "path": "spritesheet/Scatter/Scatter",
+        "clip": "S001_"
+    },
+    "Ch_attck": {
+        "path": "atlas/Ch_attck",
+        "clip": "attck_"
+    }
+}

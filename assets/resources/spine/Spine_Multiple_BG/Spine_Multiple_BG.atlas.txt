@@ -1,0 +1,97 @@
+
+Spine_Multiple_BG.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Alpha
+  rotate: false
+  xy: 0, 1372
+  size: 1024, 640
+  orig: 1024, 640
+  offset: 0, 0
+  index: -1
+Line_0
+  rotate: false
+  xy: 667, 1042
+  size: 429, 320
+  orig: 512, 320
+  offset: 41, 0
+  index: -1
+Line_1
+  rotate: false
+  xy: 0, 660
+  size: 438, 320
+  orig: 512, 320
+  offset: 32, 0
+  index: -1
+Line_2
+  rotate: false
+  xy: 448, 660
+  size: 428, 320
+  orig: 512, 320
+  offset: 40, 0
+  index: -1
+Line_3
+  rotate: false
+  xy: 440, 0
+  size: 424, 320
+  orig: 512, 320
+  offset: 40, 0
+  index: -1
+Line_4
+  rotate: false
+  xy: 0, 330
+  size: 430, 320
+  orig: 512, 320
+  offset: 39, 0
+  index: -1
+Line_5
+  rotate: false
+  xy: 440, 330
+  size: 425, 320
+  orig: 512, 320
+  offset: 35, 0
+  index: -1
+Line_6
+  rotate: false
+  xy: 0, 0
+  size: 430, 320
+  orig: 512, 320
+  offset: 39, 0
+  index: -1
+Line_7
+  rotate: false
+  xy: 1510, 1692
+  size: 438, 320
+  orig: 512, 320
+  offset: 37, 0
+  index: -1
+Line_8
+  rotate: false
+  xy: 1510, 1362
+  size: 429, 320
+  orig: 512, 320
+  offset: 40, 0
+  index: -1
+Line_9
+  rotate: false
+  xy: 886, 712
+  size: 424, 320
+  orig: 512, 320
+  offset: 42, 0
+  index: -1
+Rainbow
+  rotate: false
+  xy: 1034, 1503
+  size: 466, 509
+  orig: 1024, 640
+  offset: 267, 82
+  index: -1
+Star
+  rotate: false
+  xy: 0, 990
+  size: 657, 372
+  orig: 1024, 640
+  offset: 174, 120
+  index: -1
