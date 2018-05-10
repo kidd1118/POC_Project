@@ -37,7 +37,8 @@ export default abstract class PocCommon extends cc.Component {
     }
     set count(theCount: number) {
         this._count = theCount;
-        this.label_count.string = "Count : " + this.count.toString();
+        if (this.label_count != null)
+            this.label_count.string = "Count : " + this.count.toString();
     }
 
     private _isReady: boolean = false;
@@ -66,6 +67,8 @@ export default abstract class PocCommon extends cc.Component {
         this.btn_next.on(cc.Node.EventType.TOUCH_END, this._onNext.bind(this));
         this.btn_prev.on(cc.Node.EventType.TOUCH_END, this._onPrev.bind(this));
         this.btn_clean.on(cc.Node.EventType.TOUCH_END, this._onClean.bind(this));
+
+        cc.find("Canvas").on("clear_screen", this._onClean.bind(this));
     }
 
     abstract _onAdd(): void;
@@ -98,5 +101,11 @@ export default abstract class PocCommon extends cc.Component {
         let y = this.displayWindow.height / 2 - Math.random() * this.displayWindow.height;
         node.setPosition(x, y);
         return node;
+    }
+
+    public randomPosition() {
+        let x = this.displayWindow.width / 2 - Math.random() * this.displayWindow.width;
+        let y = this.displayWindow.height / 2 - Math.random() * this.displayWindow.height;
+        return new cc.Vec2(x, y);
     }
 }
