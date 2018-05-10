@@ -1,0 +1,16 @@
+{
+    "keys": [
+        "particle_texture",
+        "galaxy",
+        "katamari"
+    ],
+    "particle_texture": {
+        "path": "resources/particle/particle_texture.plist"
+    },
+    "galaxy": {
+        "path": "resources/particle/galaxy.plist"
+    },
+    "katamari": {
+        "path": "resources/particle/katamari.plist"
+    }
+}

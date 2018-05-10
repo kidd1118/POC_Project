@@ -617,7 +617,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "label current spine",
+    "_name": "label current type",
     "_objFlags": 0,
     "_parent": {
       "__id__": 15
@@ -1784,7 +1784,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "label current spine",
+    "_name": "label current type",
     "_objFlags": 0,
     "_parent": {
       "__id__": 42
@@ -2527,7 +2527,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "label current spine",
+    "_name": "label count",
     "_objFlags": 0,
     "_parent": {
       "__id__": 42
@@ -3471,7 +3471,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "label current spine",
+    "_name": "label count",
     "_objFlags": 0,
     "_parent": {
       "__id__": 64
@@ -3570,7 +3570,7 @@
     "_originalHeight": 0
   },
   {
-    "__type__": "3cf4dWt9cpFKaTGp5lvF6fh",
+    "__type__": "e29bbKITw5ItI/ax5xrww4H",
     "_name": "",
     "_objFlags": 0,
     "node": {
