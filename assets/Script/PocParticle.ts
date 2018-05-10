@@ -6,6 +6,7 @@ const { ccclass, property } = cc._decorator;
 export default class PocParticle extends PocCommon {
 
     start() {
+        this.curType = "particle_texture";
         this.isReady = true;
     }
 
